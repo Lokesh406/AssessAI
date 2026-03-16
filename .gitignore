@@ -1,0 +1,26 @@
+# Root-level ignores for monorepo safety
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+
+# Node dependencies/build artifacts
+node_modules/
+**/node_modules/
+build/
+dist/
+
+# Logs
+*.log
+logs/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
